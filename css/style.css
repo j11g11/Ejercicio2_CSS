@@ -12,6 +12,8 @@ header {
 
 /* Navegación */
 nav {
+  display: inline-block;   /* ✅ inline-block */
+  width: 80%;              /* ✅ ancho 80% */
   background-color: #333;
 }
 
@@ -19,6 +21,11 @@ nav a {
   color: white;
   text-decoration: none;
   padding: 10px;
+}
+
+/* Imagen dentro de nav */
+nav img {
+  width: 10%;              /* ✅ imagen en nav al 10% */
 }
 
 /* Contenido principal */
@@ -35,10 +42,11 @@ footer {
 }
 
 /* Elementos de lista */
-li {
+/* li {
   display: inline-block;
   width: 150px;
-}
+} */
+/* ✅ Comentado */
 
 /* Encabezados h1 */
 h1 {
@@ -50,4 +58,25 @@ h1 {
 /* Párrafos */
 p {
   line-height: 1.6;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%; /* ✅ dos columnas de 40% */
+  justify-content: center;        /* ✅ ajusta horizontal */
+  align-items: start;             /* ✅ ajusta vertical */
+  row-gap: 20px;                  /* ✅ espacio entre filas */
+}
+
+/* Imágenes dentro de grid */
+.grid img {
+  width: 100%;                    /* ✅ imágenes al 100% */
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  flex-wrap: wrap;                 /* ✅ permite saltar de línea */
+  justify-content: space-around;   /* ✅ distribuye elementos */
 }
