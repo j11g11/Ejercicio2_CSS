@@ -1,0 +1,53 @@
+/* Estilo general del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+/* Encabezado */
+header {
+  background-color: #dceeff;
+}
+
+/* Navegación */
+nav {
+  background-color: #333;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Contenido principal */
+main {
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #eee;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Elementos de lista */
+li {
+  display: inline-block;
+  width: 150px;
+}
+
+/* Encabezados h1 */
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: darkblue;
+}
+
+/* Párrafos */
+p {
+  line-height: 1.6;
+}
